@@ -1,11 +1,36 @@
 @import "tailwindcss";
 
+/* Warm café palette */
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand: #c2410c;
+  --color-brand-dark: #9a3412;
+  --color-brand-light: #ffedd5;
+  --color-leaf: #4d7c0f;
+  --color-leaf-light: #ecfccb;
+  --color-cream: #fdf8f3;
+  --color-ink: #2b2118;
+
+  /* Remap the old indigo and slate classes so pages I haven't rewritten yet pick up the new colors */
+  --color-indigo-50: #fff7ed;
+  --color-indigo-100: #ffedd5;
+  --color-indigo-200: #fed7aa;
+  --color-indigo-500: #ea580c;
+  --color-indigo-600: #c2410c;
+  --color-indigo-700: #9a3412;
+  --color-indigo-900: #431407;
+  --color-slate-50: #faf7f2;
+  --color-slate-100: #f1ebe2;
+  --color-slate-200: #e2d9cc;
+  --color-slate-300: #d1c5b4;
+  --color-slate-400: #a8998a;
+  --color-slate-500: #7a6b5d;
+  --color-slate-600: #5c4f43;
+  --color-slate-700: #44392f;
+  --color-slate-800: #2e251d;
+  --color-slate-900: #2b2118;
 }
 
 html, body, #root { min-height: 100%; }
-body { @apply bg-slate-50 text-slate-900 antialiased; }
-
-@keyframes fadein { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
-.fade-in { animation: fadein .25s ease-out; }
+body { background: var(--color-cream); color: var(--color-ink); }
