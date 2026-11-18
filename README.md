@@ -2,7 +2,7 @@
 
 Small-business analytics prototype for CSCI 395 (Group 10). It connects to a business's tools (accounting, sales, CRM, ads), finds where money is being lost, and suggests what to do about it.
 
-Live demo: https://matenovak07.github.io/-CSCI39529/
+Live demo: [https://matenovak07.github.io/-CSCI39529/](https://matenovak07.github.io/CSCI39529/)
 
 Everything in the demo is made-up data for a sample café, Harbor & Pine Coffee Co. Nothing you type leaves your browser. Click "Try the live demo" on the homepage to get in, or log in with `demo@profitlens.app` / `demo1234`.
 
